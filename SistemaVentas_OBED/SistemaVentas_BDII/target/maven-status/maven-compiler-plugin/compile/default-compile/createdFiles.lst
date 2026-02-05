@@ -1,0 +1,12 @@
+MODEL\Conexion.class
+MODEL\ConsultasProducto.class
+MODEL\DetalleVenta.class
+MODEL\SentenciasSQL.class
+VIEW\VistaLogin.class
+MODEL\ConsultasCliente.class
+CONTROLLER\ControladorPrincipal.class
+MODEL\ConsultasVenta.class
+PuntoVentaQuintoSemestre\Main.class
+VIEW\Estilos.class
+VIEW\VistaPrincipal.class
+CONTROLLER\ControladorPrincipal$1.class
