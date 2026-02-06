@@ -15,23 +15,37 @@ Aportaciones individuales
  Archivos Modificados
 * `src/CONTROLLER/ControladorPrincipal.java`: Lógica de negocio de los nuevos botones y filtros.
 * `src/VIEW/VistaPrincipal.java`: Actualización de la interfaz gráfica y componentes de tabla.
-
-+Desarrollado para el proyecto final de Paradigmas De Programacion II.
 *Fin aportaciones Obed*
 
 - Aportaciones de Marcela Platas Revuelta:
 
-1. Buscadores Inteligentes (Filtros en Tiempo Real).
-   - Buscador en ventana HistorialVentas: Permite buscar una venta por fecha, id y nombre de producto vendido.
+  1. Buscadores Inteligentes (Filtros en Tiempo Real).
+    - Buscador en ventana HistorialVentas: Permite buscar una venta por fecha, id y nombre de producto vendido.
 
-2. Impresión de PDF.
-   - Botón "Imprimir PDF": Permite imprimir en PDF los detalles de una venta seleccionada.
+  2. Impresión de PDF.
+    - Botón "Imprimir PDF": Permite imprimir en PDF los detalles de una venta seleccionada.
 
-3. Gestión del Carrito de Ventas.
-   - Edición de Cantidad en Tiempo Real: Se habilitó la capacidad de modificar la cantidad de productos directamente en la tabla del carrito mediante botones + y -. (FUNCIONAL)
+  3. Gestión del Carrito de Ventas.
+    - Edición de Cantidad en Tiempo Real: Se habilitó la capacidad de modificar la cantidad de productos directamente en la tabla del carrito mediante botones + y -. (FUNCIONAL)
 
-4. Gestión del Login.
-   - Botón "Cerrar Sesión": Permite desde cualquier ventana del sistema cerrar sesión inmediata para entrar como otro usuario.
+  4. Gestión del Login.
+    - Botón "Cerrar Sesión": Permite desde cualquier ventana del sistema cerrar sesión inmediata para entrar como otro usuario.
   
 Archivos modificados:
-* '
+* `src/CONTROLLER/ControladorPrincipal.java`: Lógica de los nuevos botones y filtros.
+* `src/VIEW/VistaPrincipal.java`: Actualización de la interfaz gráfica y componentes de tabla.
+*Fin aportaciones Marcela*
+
+- Aportaciones de Candy Mariela Toral Sosa:
+
+ 1. Buscadores Inteligentes (Filtros en Tiempo Real).
+    - Buscador en Producto: Permite buscar un producto por ID, Nombre y Descripción.
+    - Buscador en Clientes: Permite buscar un cliente por ID y Nombre.
+
+Archivos modificados:
+* `src/CONTROLLER/ControladorPrincipal.java`: Lógica de los nuevos filtros.
+* `src/VIEW/VistaPrincipal.java`: Actualización de la interfaz gráfica y componentes de tabla.
+*Fin aportaciones Candy Mariela*
+    
+
+
