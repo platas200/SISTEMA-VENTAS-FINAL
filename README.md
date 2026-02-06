@@ -38,9 +38,16 @@ Archivos modificados:
 
 - Aportaciones de Candy Mariela Toral Sosa:
 
- 1. Buscadores Inteligentes (Filtros en Tiempo Real).
-    - Buscador en Producto: Permite buscar un producto por ID, Nombre y Descripción.
-    - Buscador en Clientes: Permite buscar un cliente por ID y Nombre.
+Buscadores Inteligentes (Filtros en Tiempo Real).
+Se implementaron funcionalidades que permiten realizar búsquedas dinámicas dentro del sistema, mejorando la interacción del usuario y facilitando la localización de información dentro de tablas con gran cantidad de registros. Estos filtros funcionan en tiempo real, es decir, conforme el usuario escribe en los campos de búsqueda, los datos se actualizan automáticamente sin necesidad de presionar botones adicionales.
+
+1. Buscador en Producto:
+Se desarrolló un sistema de filtrado para la tabla de productos que permite localizar registros utilizando múltiples criterios de búsqueda simultáneamente. El usuario puede buscar productos mediante el ID, el Nombre o la Descripción del producto.
+Este buscador mejora la eficiencia en la gestión del inventario, ya que permite identificar productos de forma rápida y precisa, especialmente cuando existen muchos registros almacenados.
+
+2. Buscador en Clientes:
+Se implementó un filtro dinámico en la tabla de clientes que permite buscar registros utilizando el ID del cliente o su Nombre.
+Esta funcionalidad facilita la localización de clientes dentro del sistema, optimizando los procesos de venta y administración, ya que reduce el tiempo necesario para encontrar información específica.
 
 Archivos modificados:
 * `src/CONTROLLER/ControladorPrincipal.java`: Lógica de los nuevos filtros.
